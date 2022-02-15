@@ -1,0 +1,61 @@
+.body{
+    font-family: 'Poppins', sans-serif;
+}
+/* --------google font added ------- */
+
+.margin-up{
+    margin-top: 10%;
+}
+.margin-down{
+    margin-bottom: 10%;
+}
+.package-button{
+    background-color: #ffd2ed;
+    color: rgb(45, 45, 175);
+    padding: 10px 50px;
+    font-weight: bold;
+}
+.padding-up{
+    padding-top: 15%;
+}
+.padding-down{
+    padding-bottom: 10%;
+}
+.package-no-3{
+    background-color: #3F87F5;
+    color: white;
+    border-radius: 26px;
+}
+.bg-footer{
+    background-color: #0B0D17;
+}
+.footer-logo{
+    font-size: 60px;
+}
+.footer-logo-hover:hover{
+    color: white
+}
+
+.red-big-text{
+    font-size: 50px;
+    color: rgb(182, 22, 22);
+}
+
+
+/* for small device */
+@media only screen and (max-width: 688px){
+    .h1-f-sm{
+        font-size: 18px;
+        line-height: 80%;
+    }
+    .d-none-f-sm{
+        display: none;
+    }
+    .first-order{
+        order: 1;
+    }
+    .second-order{
+        order: 2;
+    }
+}
+/* for small device */
